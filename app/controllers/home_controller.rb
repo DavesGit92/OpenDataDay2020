@@ -1,5 +1,16 @@
 class HomeController < ApplicationController
   PLACES = [
+     {
+      url: "https://images.unsplash.com/photo-1498804103079-a6351b050096?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+      name: "BARISTA",
+      address: "Av. Puebla #2, 38827 Moroleón",
+      tags: [ 
+        {
+          label: "barato",
+          color: "warning",
+        },
+      ],
+    },
     {
       url: "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
       name: "Cafe del Valle",
